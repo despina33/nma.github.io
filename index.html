@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="main" id="main">
+        <div class="navbar">
+          <input type="checkbox" class="checkbox" id="click" hidden />
+  
+          <div class="sidebar">
+            <label for="click">
+              <div class="menu-icon">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+            </label>
+            <ul class="social-icons-list">
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+  
+            <div class="year">
+              <p>2024</p>
+            </div>
+          </div>
+  
+          <nav class="navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="#main" class="navigation-link">home</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#about-us" class="navigation-link">about us</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#getting-here" class="navigation-link">visit us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="title">
+  
+        <h1 class="first-title">NATIONAL MUSEUM</h1>
+        <h1 class="second-title">OF ARTS</h1>
+  
+        <div class="exhibition">
+          <p>EXHIBITION</p>
+          <p>Michelangelo Buonarroti 1475-1564</p>
+          <div class="line-4"></div>
+          <p>From 5th February 2024</p>
+          <p>To 5th September 2024</p>
+        </div>
+
+    </div>
+  
+        <div class="instructions">
+            <!-- <div class="logo">
+                <img src="img/logo1.png" alt="" />
+              </div> -->
+          <ul>
+            <li>
+              <a href="#getting-here">GETTING HERE</a>
+            </li>
+            <br />
+            <br />
+            <li>
+              <a href="#tickets">BUY A TICKET</a>
+            </li>
+          </ul>
+        </div>
+  
+        
+      </section>
+
+
+      <section class="about-us" id="about-us">
+        <div class="about1">
+          <h2>Michelangelo Buonarroti</h2>
+          <div class="lin3"></div>
+          <p class="life"><strong>MICHELANGELO'S LIFE</strong></p>
+          <p class="life">1475-1564</p>
+          <p class="story">
+            Michelangelo achieved fame early; two of his best-known works, the
+            Pietà and David, were sculpted before the age of thirty. Although he
+            did not consider himself a painter, Michelangelo created two of the
+            most influential frescoes in the history of Western art: the scenes
+            from Genesis on the ceiling of the Sistine Chapel in Rome, and The
+            Last Judgment on its altar wall.
+          </p>
+          <p class="story">
+            Michelangelo achieved fame early; two of his best-known works, the
+            Pietà and David, were sculpted before the age of thirty. Although he
+            did not consider himself a painter, Michelangelo created two of the
+            most influential frescoes in the history of Western art: the scenes
+            from Genesis on the ceiling of the Sistine Chapel in Rome, and The
+            Last Judgment on its altar wall.
+          </p>
+  
+          <button>Show Art</button>
+  
+          
+        </div>
+  
+        <div class="img-section">
+          <img src="img/sculpture9.png" alt="" />
+        </div>
+  
+        <div class="about2">
+          <h2>Michelangelo: Master of the Divine</h2>
+          <div class="lin2"></div>
+          <p class="life"><strong>MICHELANGELO EXHIBITION</strong></p>
+          <p class="life">5 FEBRUARY - 5 SEPTEMBER</p>
+          <p class="story">
+            Step into the timeless realm of artistic genius with "Michelangelo:
+            Master of the Divine" an extraordinary exhibition that pays homage to
+            the unparalleled legacy of the Renaissance maestro, Michelangelo
+            Buonarroti. Immerse yourself in the sublime beauty and profound
+            creativity that defined the life and work of this iconic artist.
+          </p>
+          <p class="story">
+            Step into the timeless realm of artistic genius with "Michelangelo:
+            Master of the Divine" an extraordinary exhibition that pays homage to
+            the unparalleled legacy of the Renaissance maestro, Michelangelo
+            Buonarroti. Immerse yourself in the sublime beauty and profound
+            creativity that defined the life and work of this iconic artist.
+          </p>
+          <button type="button" value="redirect" class="btnn">Buy Tickets</button>
+        </div>
+      </section>
+
+
+      <section class="sculptures">
+        <div class="heading-sculptures">
+          <h2>POPULAR SCULPTURES FROM EXHIBITION</h2>
+          <!-- <div class="line5"></div> -->
+        </div>
+        
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            
+            <img src="img/sculpture203.jpg" style="width: 100%" />
+            
+          </div>
+  
+          <div class="mySlides fade">
+            
+            <img src="img/sculpture9.png" style="width: 100%" />
+            
+          </div>
+  
+          <div class="mySlides fade">
+            
+            <img src="img/sculpture21.png" style="width: 100%" />
+            
+          </div>
+  
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+  
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+
+
+      <section class="tickets" id="tickets">
+
+        <div class="tickets-title">
+        <h2>EXHIBITION TICKETS</h2>
+        <!-- <div class="line6"></div> -->
+        <p>To give you the best options to experience art we regularly organize art exhibitions, pop-up art galleries and open temporary art showrooms all around the world. </p>
+      </div>
+
+        <div class="tickets-container">
+          <img src="img/cover.jpg" alt="">
+          <div class="form-box">
+            <h3>Buy a ticket</h3>
+            <div class="textbox">
+             
+              <input type="text" placeholder="Full Name" name="" value="">
+            </div>
+  
+            <div class="textbox">
+              <input type="text" placeholder="Age" name="" value="">
+            </div>
+  
+            <div class="textbox">
+              <input type="text" placeholder="Date of visit" name="" value="">
+            </div>
+  
+            <input class="btn" type="button" value="Buy ticket">
+          </div>
+        </div>
+  
+        <div class="getting-here" id="getting-here">
+          <h3>You can find us at:</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Bucuresti, Splaiul Independentei 22</p>
+          <div class="line7"></div>
+          <p><i class="fa-solid fa-phone"></i> +40727286543</p>
+          <div class="line7"></div>
+          <p><i class="fa-solid fa-envelope"></i> nma@explore.com</p>
+          <div class="line7"></div>
+        </div>
+          <div class="google-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.0287828222977!2d26.09129807570076!3d44.432571801677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff41eb1afe89%3A0x85754d547e40d524!2sSplaiul%20Independen%C8%9Bei%2022%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sro!2sro!4v1706697139329!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+      </section>
+  
+      <footer>@2024 NATIONAL MUSEUM OF ARTS. All rights reserved</footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
